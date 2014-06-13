@@ -1,67 +1,0 @@
-TTablePerformance
-v7
-r1
-cCheck dependencies
-cCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
-cDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h
-cDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule
-
-CCheck dependencies
-r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies08e7eb349c4bb941^4da0f0349c4bb941^---0#1#1#--18"Check dependencies36"0A3BCE1E-71B7-4B79-8D62-2881F1C33D0E-
-
-CCompileAssetCatalog /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app /Users/brady/Desktop/TablePerformance/TablePerformance/Images.xcassets
-r0
-
-CCompileStoryboard /Users/brady/Desktop/TablePerformance/TablePerformance/Base.lproj/Main.storyboard
-r0
-
-CCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
-s424385588.940515
-e424385590.674923
-r1
-xCompileSwift
-xnormal
-xi386
-xcom.apple.xcode.tools.swift.compiler
-d/Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DetailViewController.swift
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files61"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler6edef0349c4bb941^c9c9ac369c4bb941^---0#0#1#--2968"CompileSwift normal i386 com.apple.xcode.tools.swift.compiler    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target i386-apple-ios8.0 -module-name TablePerformance -O0 -sdk /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -g -module-cache-path /Users/brady/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator -F /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator -c -j4 /Users/brady/Desktop/TablePerformance/TablePerformance/DetailViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift -output-file-map /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/TablePerformance-generated-files.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/TablePerformance-own-target-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/TablePerformance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/TablePerformance-project-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/include -Xcc -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/i386 -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h36"C3DA5A33-DD35-48D8-970D-00DC08346903-
-b2279CD23-E18D-4C56-A1D5-15CF2B51CC51
-
-CCopySwiftLibs /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h
-s424385590.675903
-e424385590.685996
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"Copy /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h266"Ditto Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h081cad369c4bb941^30a0af369c4bb941^---0#0#1#-19%DVTDocumentLocation2@172"file:///Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h00341073ddffdf42^881"Ditto Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h36"F376EC58-7E64-44F5-8F3D-8EB1818A4DCF-
-b2279CD23-E18D-4C56-A1D5-15CF2B51CC51
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule
-s424385590.686373
-e424385590.693723
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule225"Ditto Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule37c5af369c4bb941^319ab1369c4bb941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule00341073ddffdf42^799"Ditto Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule36"70CE77B9-1684-4903-8C87-C4182718EC20-
-b2279CD23-E18D-4C56-A1D5-15CF2B51CC51
-
-CGenerateDSYMFile /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app.dSYM /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app/TablePerformance
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app/TablePerformance normal i386
-r0
-
-CProcessInfoPlistFile /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app/Info.plist /Users/brady/Desktop/TablePerformance/TablePerformance/Info.plist
-r0
-
-CTouch /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphonesimulator/TablePerformance.app
-r0
-

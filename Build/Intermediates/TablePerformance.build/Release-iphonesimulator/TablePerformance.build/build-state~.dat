@@ -1,80 +1,0 @@
-TTablePerformance
-v7
-r1
-cCheck dependencies
-cCompileSwift normal x86_64 com.apple.xcode.tools.swift.compiler
-
-CCheck dependencies
-r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd4632354bc4bb941^e76e2f54bc4bb941^---0#1#1#--18"Check dependencies36"0AF7957F-9908-459E-B78B-62C0C5B88DCC-
-
-CCompileAssetCatalog /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app /Users/brady/Desktop/TablePerformance/TablePerformance/Images.xcassets
-r0
-
-CCompileStoryboard /Users/brady/Desktop/TablePerformance/TablePerformance/Base.lproj/Main.storyboard
-r0
-
-CCompileSwift normal i386 com.apple.xcode.tools.swift.compiler
-r0
-
-CCompileSwift normal x86_64 com.apple.xcode.tools.swift.compiler
-s424393812.164563
-e424393813.592602
-r0
-xCompileSwift
-xnormal
-xx86_64
-xcom.apple.xcode.tools.swift.compiler
-d/Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift
-o/Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift:55:132: error: could not find an overload for '+' that accepts the supplied arguments
-o        return string.boundingRectWithSize(size, options: NSStringDrawingOptions.UsesLineFragmentOrigin, context: nil).size.height + 4.0
-o               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
-o/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift:56:21: error: 'NSNumber' is not a subtype of 'CGFloat'
-o        return Text.getHeightForString(TwoDimensionalArrayOfRandomStrings[indexPath.section][indexPath.row])
-o                    ^
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files63"CompileSwift normal x86_64 com.apple.xcode.tools.swift.compilerce332a54bc4bb941^64af9755bc4bb941^-692"/Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift:55:132: error: could not find an overload for '+' that accepts the supplied arguments        return string.boundingRectWithSize(size, options: NSStringDrawingOptions.UsesLineFragmentOrigin, context: nil).size.height + 4.0               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift:56:21: error: 'NSNumber' is not a subtype of 'CGFloat'        return Text.getHeightForString(TwoDimensionalArrayOfRandomStrings[indexPath.section][indexPath.row])                    ^2(36%IDEClangDiagnosticActivityLogMessage2@40"'NSNumber' is not a subtype of 'CGFloat'-424393813#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@86"file:///Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift0000000000000000^55#20#55#20#0#0#1#20"Swift Compiler Error--2@70"Could not find an overload for '+' that accepts the supplied arguments-424393813#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@72"file:///Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift0000000000000000^54#131#54#131#0#0#1#20"Swift Compiler Error1(3@72"file:///Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift0000000000000000^54#15#54#136#0#0#1#-0#0#1#--3359"CompileSwift normal x86_64 com.apple.xcode.tools.swift.compiler    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target x86_64-apple-ios8.0 -module-name TablePerformance -O3 -sdk /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator8.0.sdk -g -module-cache-path /Users/brady/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator -F /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator -c -j4 /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift /Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift -output-file-map /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance.swiftmodule -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/TablePerformance-generated-files.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/TablePerformance-own-target-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/TablePerformance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/TablePerformance-project-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/include -Xcc -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/DerivedSources/x86_64 -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance-Swift.h36"D65A9F4E-53AF-4380-9EF6-2DFD42B29732-
-b8DA1B820-88A1-4BD3-8609-FF4EB5D13A6E
-
-CCompileXIB /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.xib
-r0
-
-CCopySwiftLibs /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app
-r0
-
-CCreateUniversalBinary /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app/TablePerformance normal i386\ x86_64
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance-Swift.h
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance-Swift.h
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.swiftmodule/i386.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance.swiftmodule
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.swiftmodule/x86_64.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance.swiftmodule
-r0
-
-CGenerateDSYMFile /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app.dSYM /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app/TablePerformance
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/i386/TablePerformance normal i386
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Release-iphonesimulator/TablePerformance.build/Objects-normal/x86_64/TablePerformance normal x86_64
-r0
-
-CProcessInfoPlistFile /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app/Info.plist /Users/brady/Desktop/TablePerformance/TablePerformance/Info.plist
-r0
-
-CTouch /Users/brady/Desktop/TablePerformance/Build/Products/Release-iphonesimulator/TablePerformance.app
-r0
-

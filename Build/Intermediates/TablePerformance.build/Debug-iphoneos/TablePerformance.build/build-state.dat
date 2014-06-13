@@ -1,138 +1,0 @@
-TTablePerformance
-v7
-r1
-cCheck dependencies
-cCompileSwift normal arm64 com.apple.xcode.tools.swift.compiler
-cCompileSwift normal armv7 com.apple.xcode.tools.swift.compiler
-cDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h
-cDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h
-cDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule
-cDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule
-
-CCheck dependencies
-r0
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescf31e4c4c04bb941^6de7ebc4c04bb941^---0#1#1#--18"Check dependencies36"20F24CEC-16DA-4D79-8937-24E051C30667-
-
-CCodeSign /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app
-r0
-
-CCompileAssetCatalog /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app /Users/brady/Desktop/TablePerformance/TablePerformance/Images.xcassets
-r0
-
-CCompileStoryboard /Users/brady/Desktop/TablePerformance/TablePerformance/Base.lproj/Main.storyboard
-r0
-
-CCompileSwift normal arm64 com.apple.xcode.tools.swift.compiler
-s424394645.130643
-e424394646.551779
-r1
-xCompileSwift
-xnormal
-xarm64
-xcom.apple.xcode.tools.swift.compiler
-d/Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files62"CompileSwift normal arm64 com.apple.xcode.tools.swift.compilerc77f2195bf4bb941^af438d96bf4bb941^---0#0#1#--3239"CompileSwift normal arm64 com.apple.xcode.tools.swift.compiler    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target arm64-apple-ios7.0 -module-name TablePerformance -O0 -sdk /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -g -module-cache-path /Users/brady/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos -F /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos -c -j4 /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift /Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift -output-file-map /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-generated-files.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-own-target-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-project-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/include -Xcc -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/arm64 -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h36"3D2024DB-7313-4FDD-9D38-3581AB4351E7-
-b1F6D90A6-FB60-48ED-905C-A0EDCF43514B
-
-CCompileSwift normal armv7 com.apple.xcode.tools.swift.compiler
-s424394948.922361
-e424394950.261392
-r1
-xCompileSwift
-xnormal
-xarmv7
-xcom.apple.xcode.tools.swift.compiler
-d/Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift
-d/Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files62"CompileSwift normal armv7 com.apple.xcode.tools.swift.compiler662eecc4c04bb941^03ed42c6c04bb941^---0#0#1#--3239"CompileSwift normal armv7 com.apple.xcode.tools.swift.compiler    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target armv7-apple-ios7.0 -module-name TablePerformance -O0 -sdk /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -g -module-cache-path /Users/brady/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos -F /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos -c -j4 /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/Text.swift /Users/brady/Desktop/TablePerformance/TablePerformance/MasterViewController.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectCellView.swift /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.swift /Users/brady/Desktop/TablePerformance/TablePerformance/AppDelegate.swift /Users/brady/Desktop/TablePerformance/TablePerformance/DrawRectController.swift -output-file-map /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-generated-files.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-own-target-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-all-target-headers.hmap -Xcc -iquote -Xcc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance-project-headers.hmap -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/include -Xcc -I/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/armv7 -Xcc -I/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h36"C8425340-8B67-41CE-92E7-FE5DE3639903-
-b70CD3681-B15A-43C6-BB48-FA0AA1307145
-
-CCompileXIB /Users/brady/Desktop/TablePerformance/TablePerformance/TextViewCell.xib
-r0
-
-CCopySwiftLibs /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app
-r0
-
-CCpResource /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/TablePerformance.app/ResourceRules.plist
-r0
-
-CCreateUniversalBinary /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app/TablePerformance normal armv7\ arm64
-r0
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h
-s424394646.553035
-e424394646.559482
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Copy /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h253"Ditto Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h72a68d96bf4bb941^003b8f96bf4bb941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h0000000000000000^848"Ditto Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h36"7E2CC4DE-5F6F-4D37-A8E0-326CF66AB737-
-b1F6D90A6-FB60-48ED-905C-A0EDCF43514B
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h
-s424394950.262711
-e424394950.268855
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Copy /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h253"Ditto Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h8f5443c6c04bb941^41d544c6c04bb941^---0#0#1#-19%DVTDocumentLocation2@165"file:///Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h0000000000000000^848"Ditto Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance-Swift.h /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/DerivedSources/TablePerformance-Swift.h36"133C92C5-F62A-4231-BB91-350714BBDDD4-
-b70CD3681-B15A-43C6-BB48-FA0AA1307145
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule
-s424394950.269250
-e424394950.276823
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule211"Ditto Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodulea8ff44c6c04bb941^a0e046c6c04bb941^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule0000000000000000^764"Ditto Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm.swiftmodule36"175E24D5-BEF9-4CB6-A53B-A0E291749031-
-b70CD3681-B15A-43C6-BB48-FA0AA1307145
-
-CDitto /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule
-s424394646.559816
-e424394646.565719
-r1
-xDitto
-x/Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule
-x/Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule
-lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule213"Ditto Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodulef25c8f96bf4bb941^89d49096bf4bb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule0000000000000000^768"Ditto Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule    cd /Users/brady/Desktop/TablePerformance    export PATH="/Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance.swiftmodule /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.swiftmodule/arm64.swiftmodule36"AC68E3C0-37AA-4B00-92B0-43C11E2BBC8B-
-b1F6D90A6-FB60-48ED-905C-A0EDCF43514B
-
-CGenerateDSYMFile /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app.dSYM /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app/TablePerformance
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/arm64/TablePerformance normal arm64
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/Objects-normal/armv7/TablePerformance normal armv7
-r0
-
-CLd /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app/TablePerformance normal arm64
-r0
-
-CProcessInfoPlistFile /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app/Info.plist /Users/brady/Desktop/TablePerformance/TablePerformance/Info.plist
-r0
-
-CProcessProductPackaging /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/brady/Desktop/TablePerformance/Build/Intermediates/TablePerformance.build/Debug-iphoneos/TablePerformance.build/TablePerformance.app.xcent
-r0
-
-CProcessProductPackaging /Users/brady/Library/MobileDevice/Provisioning\ Profiles/A4778712-BE1A-46D0-AD45-2ED6361C04B2.mobileprovision /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app/embedded.mobileprovision
-r0
-
-CTouch /Users/brady/Desktop/TablePerformance/Build/Products/Debug-iphoneos/TablePerformance.app
-r0
-
