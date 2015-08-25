@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1125507C-D9B6-47EE-820A-63DFD684C253</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TablePerformance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CE3B9324DA529ECF793402C570BDE4C92D76E0D</key>
+		<string>https://github.com/bradya/tableviewcell-performance.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TablePerformance.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CE3B9324DA529ECF793402C570BDE4C92D76E0D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bradya/tableviewcell-performance.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CE3B9324DA529ECF793402C570BDE4C92D76E0D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CE3B9324DA529ECF793402C570BDE4C92D76E0D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>tableviewcell-performance</string>
+		</dict>
+	</array>
+</dict>
+</plist>

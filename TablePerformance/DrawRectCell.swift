@@ -11,8 +11,8 @@ import UIKit
 class DrawRectCell: UITableViewCell {
     
     var cellView: DrawRectCellView?
-
-    init(style: UITableViewCellStyle, reuseIdentifier: String) {
+    
+    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         // Initialization code
         cellView = DrawRectCellView(frame: self.frame)
@@ -22,10 +22,14 @@ class DrawRectCell: UITableViewCell {
             cell.contentMode = UIViewContentMode.Redraw
         }
         
-        self.contentView.addSubview(cellView)
+        self.contentView.addSubview(cellView!)
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
-    func setText(text: NSAttributedString) {
+    func setTextString(text: NSAttributedString) {
         if let view = cellView {
             view.text = text
         }

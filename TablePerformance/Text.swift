@@ -18,7 +18,8 @@ class Text {
             var section: Array<NSAttributedString> = Array<NSAttributedString>()
             
             for i in 1...10 {
-                let string: NSAttributedString = NSAttributedString(string: Text.getRandomText(), attributes: [NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 16.0), NSForegroundColorAttributeName: UIColor(red: 50.0/255.0, green: 50.0/255.0, blue: 50.0/255.0, alpha: 1.0)])
+                let attributes = [ NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 16.0)!, NSForegroundColorAttributeName: UIColor(red: 0.20, green: 0.20, blue: 0.20, alpha: 1.0)] as NSDictionary
+                let string: NSAttributedString = NSAttributedString(string: Text.getRandomText(), attributes: attributes as [NSObject : AnyObject])
                 
                 section.append(string)
             }
@@ -35,7 +36,7 @@ class Text {
         
         var random: Int = abs(Int(rand()))
         
-        let numComponents = random % components.count
+        let numComponents = components.count
         
         var text: String = ""
         
@@ -51,7 +52,7 @@ class Text {
     }
     
     class func getHeightForString(string:NSAttributedString) -> CGFloat {
-        let size = CGSizeMake(UIApplication.sharedApplication().keyWindow.frame.size.width, 10000.0)
+        let size = CGSizeMake(UIApplication.sharedApplication().keyWindow!.frame.size.width, 10000.0)
         return string.boundingRectWithSize(size, options: NSStringDrawingOptions.UsesLineFragmentOrigin, context: nil).size.height + 4.0
     }
 }

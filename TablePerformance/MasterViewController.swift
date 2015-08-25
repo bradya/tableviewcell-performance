@@ -37,19 +37,19 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
         
         if indexPath.row == 0 {
-            cell.textLabel.text = "Draw Rect"
+            cell.textLabel!.text = "Draw Rect"
         }
         else if indexPath.row == 1 {
-            cell.textLabel.text = "Text Views"
+            cell.textLabel!.text = "Text Views"
         }
         
         return cell
     }
 
-    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!)  {
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)  {
         var controller: UIViewController?
         
         switch indexPath.row {
@@ -62,7 +62,7 @@ class MasterViewController: UITableViewController {
         }
         
         if let viewController = controller {
-            self.navigationController.pushViewController(viewController, animated: true)
+            self.navigationController!.pushViewController(viewController, animated: true)
         }
     }
 }

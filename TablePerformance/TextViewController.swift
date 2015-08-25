@@ -12,14 +12,18 @@ class TextViewController: UITableViewController {
 
     let ReuseIdentifier = "TextViewsIdentifier"
     
-    init(style: UITableViewStyle) {
+    override init(style: UITableViewStyle) {
         super.init(style: style)
         
         self.title = "Text Views"
     }
     
-    init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!)  {
+    override init(nibName nibNameOrNil: String!, bundle nibBundleOrNil: NSBundle!)  {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+    }
+
+    required init!(coder aDecoder: NSCoder!) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func viewDidLoad() {
@@ -40,19 +44,17 @@ class TextViewController: UITableViewController {
         return TwoDimensionalArrayOfRandomStrings[section].count
     }
     
-    override func tableView(tableView: UITableView?, cellForRowAtIndexPath indexPath: NSIndexPath?) -> UITableViewCell? {
-        let cell : TextViewCell = tableView?.dequeueReusableCellWithIdentifier(ReuseIdentifier, forIndexPath: indexPath) as TextViewCell
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell : TextViewCell = tableView.dequeueReusableCellWithIdentifier(ReuseIdentifier, forIndexPath: indexPath) as! TextViewCell
         
         // Configure the cell...
         
-        if let path = indexPath {
-            cell.setText(TwoDimensionalArrayOfRandomStrings[path.section][path.row])
-        }
+        cell.setTextString(TwoDimensionalArrayOfRandomStrings[indexPath.section][indexPath.row])
         
         return cell
     }
     
-    override func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return Text.getHeightForString(TwoDimensionalArrayOfRandomStrings[indexPath.section][indexPath.row])
     }
 
